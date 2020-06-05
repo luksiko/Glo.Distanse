@@ -668,7 +668,7 @@ body {
 	.m-menu {
 		display: flex;
 	}
-	.header-block{
+	.header-block {
 		padding-left: 15px;
 		padding-right: 15px;
 	}
@@ -678,11 +678,14 @@ body {
 		justify-content: start;
 	}
 }
-@media (max-width:560px){
+@media (max-width: 560px) {
 	.search {
 		display: flex;
 		max-width: 40%;
 		justify-content: flex-start;
 	}
-
+	.search-input {
+		
+		max-width: 140px;
+	}
 }
